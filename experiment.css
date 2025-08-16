@@ -1,0 +1,31 @@
+.main-container {
+    margin: 5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    min-height: 4rem;
+    max-height: 8rem;
+    min-width: 16rem;
+    max-width: 32rem;
+    position: relative;
+}
+
+button:disabled {
+    cursor:not-allowed;
+}
+
+button:disabled:hover {
+    background-color:unset;
+}
+
+span {
+    visibility: hidden;
+    color: darkgreen;
+    font-weight: bold;
+}

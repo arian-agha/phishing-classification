@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email Classification</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="dashboard.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p>Phishing Email Classification - Dashboard</p>
+    </div>
+    <div class="main-container">
+        <div id="disclaimer">
+            <p class="body">There will be <b>five phishing</b> and <b>five legitimate</b> emails in an undisclosed order, and your task is to <b>classify</b> them correctly.</p>
+            <p class="body">There will be <b>five sets</b>, each containing <b>two emails</b>. You have <b>12 seconds</b> to view each email.</p>
+            <p class="body">After every set, you will be asked to make your classification for both emails that you were shown.
+            <p class="body">Before every set, a "gaze calibration" will be performed through your webcam, which is a simple 30-second process.</p>
+            <p class="body">Only anonymised gaze data with the corresponding classifications are stored. <b>No other data is stored</b>.</p>
+            <p class="body">The process should take <b>about 10 minutes in total</b>.</p>
+        </div>
+        <button type="button" onclick="startExperiment()" class="start-experiment">Start Experiment</button>
+    </div>
+</body>
+</html>

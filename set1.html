@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set 1 - View Emails</title>
+    <link rel="stylesheet" href="view_emails.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <p>Set 1 - View Emails</p>
+    </div>
+    <div class="main-container">
+        <div id="email-display">
+            <div class="email-container">
+                <div class="email-header">
+                    <div class="email-field">
+                        <span class="label">From:</span>
+                        <span id="email-from"></span>
+                    </div>
+                    <div id="email-subject"></div>
+                </div>
+                <div class="email-body">
+                    <p id="email-body-text"></p>
+                </div>
+            </div>
+            <div class="timer-wrapper">
+                <svg class="timer-svg" width="100" height="100" viewBox="0 0 100 100">
+                    <circle class="timer-circle-bg" cx="50" cy="50" r="46"></circle>
+                    <circle id="timer-progress" class="timer-circle-progress" cx="50" cy="50" r="46"></circle>
+                </svg>
+                <div id="timer-countdown" class="timer-text">12</div>
+            </div>
+        </div>
+
+        <div id="fixation-cross" class="fixation-cross hidden">+</div>
+    </div>
+    <script src="set1.js"></script>
+</body>
+</html>
